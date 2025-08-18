@@ -8,12 +8,22 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <div class="banner-top d-flex align-center mb-64">
-      <div class="pl-200">
-        <h1 class="display-1 d2-md text-white mb-16">URBNSTEP</h1>
-        <p class="h3 text-white mb-48">Your Step, Your Statement</p>
-        <button type="button" class="btn btn-green">立即選購</button>
-      </div>
+    <div class="nav d-none d-md-block">
+      <ul class="d-flex">
+        <li class="nav-products">
+          <a href="products.html" class="md">商品列表</a>
+        </li>
+        <li class="nav-story">
+          <a href="story.html" class="md">品牌故事</a>
+        </li>
+      </ul>
+    </div>
+    <div class="banner-top mb-64">
+      <h1 class="display-1 d2-md text-white mb-16 mb-md-8">URBNSTEP</h1>
+      <p class="h3 h5-md text-white mb-48 mb-md-32">
+        Your Step, Your Statement
+      </p>
+      <button type="button" class="btn btn-green">立即選購</button>
     </div>
     <main>
       <section class="py-64">
