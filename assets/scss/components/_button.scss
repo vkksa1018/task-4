@@ -24,3 +24,9 @@
   background-color: $primary-300;
   color: $neutral-900;
 }
+
+@media (max-width: 576px) {
+  .btn {
+    padding: 8px 16px;
+  }
+}

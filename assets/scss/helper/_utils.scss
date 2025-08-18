@@ -109,7 +109,7 @@
     padding-right: 6px;
     width: calc(100%);
   }
-  .flex-md-coloum {
+  .flex-md-column {
     flex-direction: column;
   }
   .flex-md-nowrap {
@@ -128,7 +128,7 @@
     overflow-x: auto;
   }
 }
-
+/*flex*/
 .d-flex {
   display: flex;
 }
@@ -188,7 +188,7 @@
   line-height: 1.2;
   font-weight: 700;
 }
-
+/*字型*/
 .display-2 {
   font-size: 48px;
   line-height: 1.2;
@@ -247,6 +247,7 @@
   .h2-md {
     font-size: 32px;
   }
+
   .h3-md {
     font-size: 28px;
   }
@@ -284,6 +285,7 @@
 
 .text-sm {
   font-style: 14px;
+  font-weight: 400;
 }
 
 .text.lg {
@@ -299,7 +301,7 @@
     font-size: 16px;
   }
 }
-
+/*字型顏色*/
 .text-danger {
   color: $danger-300;
 }
@@ -320,12 +322,24 @@
   color: $primary-500;
 }
 
+.text-neutral-100 {
+  color: $neutral-100;
+}
+
+.text-neutral-300 {
+  color: $neutral-300;
+}
+
 .text-neutral-500 {
   color: $neutral-500;
 }
 
 .text-neutral-600 {
   color: $neutral-600;
+}
+
+.bg-primary-100 {
+  background-color: $primary-100;
 }
 
 .bg-primary-200 {
@@ -389,6 +403,14 @@
 .py-64 {
   padding-top: 64px;
   padding-bottom: 64px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.pe-8 {
+  padding-right: 8px;
 }
 
 @media (max-width: 767px) {
@@ -514,6 +536,10 @@
     margin-bottom: 8px;
   }
 
+  .mb-md-12 {
+    margin-bottom: 12px;
+  }
+
   .mb-md-16 {
     margin-bottom: 16px;
   }
@@ -524,6 +550,12 @@
 
   .mb-md-32 {
     margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .me-sm-0 {
+    margin-right: 0px;
   }
 }
 
